@@ -1,0 +1,22 @@
+{
+  "name": "alfarnate-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express backend with SQLite persistence for Weather Underground PWS history",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
